@@ -1,0 +1,19 @@
+Title: Flatmates Bill
+Inputs: Amount of bill for a period
+        Days In Residence
+
+Outputs: PDF Report
+            Names of Flatmates
+            Period
+            Amount Paid
+
+Bill
+    Amount
+    Period
+Flatmate:
+    name:
+    days_in_house:
+    pays(bill)
+PdfReport:
+    filename
+    generate(flatmate1, flatmate2, bill)
